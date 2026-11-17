@@ -1,175 +1,208 @@
 # Álvaro Chaveinte Camargo
-### Desarrollador de proyectos tecnológicos · Inteligencia Artificial · Automatización · Full-stack
+### Software Developer · Artificial Intelligence · Automation · Founder of Transport AI
 
-<p align="left">
-  <img src="https://img.shields.io/badge/AI-Automation-6E56CF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Full--Stack-Development-1677C8?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-Backend-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-Frontend-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<p>
+  <img src="https://img.shields.io/badge/Software-Development-3978d4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Artificial-Intelligence-7257d5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Automation-Business%20Solutions-168c80?style=for-the-badge" />
 </p>
 
-Soy un creador de productos tecnológicos y fundador de **Transport AI**. Mi trabajo consiste en identificar problemas operativos reales y construir soluciones digitales que los resuelvan: aplicaciones web, automatizaciones, herramientas basadas en IA y sistemas de gestión.
+Construyo tecnología para resolver problemas reales. Soy creador de productos digitales y fundador de **[Transport AI](https://transportai.es)**, una iniciativa centrada en desarrollar software, automatizaciones y soluciones basadas en inteligencia artificial para empresas.
 
-Me interesa especialmente aplicar la inteligencia artificial a procesos empresariales, combinando desarrollo de software, integración de servicios y diseño de producto.
-
-Actualmente estoy abierto a oportunidades profesionales, colaboraciones y proyectos en desarrollo de software, inteligencia artificial y automatización.
+Trabajo en proyectos propios que abarcan aplicaciones web, APIs, bases de datos, agentes conversacionales, visión artificial, herramientas internas y prototipos de producto. Me interesa todo el ciclo: entender el problema, diseñar la solución, desarrollar, integrar, probar y mejorar.
 
 - **Ubicación:** Comunidad de Madrid, España.
+- **Portfolio:** [Ver portfolio web](https://github.com/Transport-AI1/Portafolios-transport-ai)
+- **Empresa / proyectos:** [transportai.es](https://transportai.es)
 - **GitHub:** [@Transport-AI1](https://github.com/Transport-AI1)
-- **Web:** [transportai.es](https://transportai.es)
-- **Contacto profesional:** webmaster@transportai.es
+- **Email profesional:** [contacto@transportai.es](mailto:contacto@transportai.es)
 
 ---
 
-## Qué sé construir
+## Qué desarrollo
 
-- Aplicaciones web con interfaces modernas y adaptables.
-- APIs y servicios backend.
-- Integraciones entre aplicaciones, bases de datos y servicios externos.
-- Automatizaciones de procesos empresariales.
-- Prototipos de agentes conversacionales y asistentes de voz.
-- Dashboards para visualizar operaciones, eventos e incidencias.
-- Sistemas de captura, almacenamiento y consulta de evidencias.
-- Soluciones que combinan visión artificial, análisis de datos e inteligencia artificial.
+| Área | Qué puedo construir |
+|---|---|
+| Aplicaciones web | Dashboards, paneles internos, portales, herramientas de gestión y experiencias responsive. |
+| Automatización | Flujos de trabajo, notificaciones, sincronización de datos y eliminación de tareas repetitivas. |
+| Agentes de IA | Asistentes conversacionales y de voz, recepción digital, consultas y apoyo a reservas. |
+| Visión artificial | Procesamiento de imágenes y vídeo, eventos, detección de anomalías y gestión de evidencias. |
+| Backend y APIs | Servicios Python, APIs REST, lógica de negocio e integración entre plataformas. |
+| Datos y sistemas | Bases de datos, persistencia de eventos, autenticación y herramientas operativas. |
+| Desarrollo de producto | Prototipos, demostraciones funcionales, pruebas, iteración y despliegue. |
 
 ## Tecnologías y herramientas
 
-| Área | Tecnologías y herramientas |
-|---|---|
-| Frontend | JavaScript, TypeScript, React, Next.js |
-| Backend | Python, FastAPI, APIs REST |
-| Bases de datos | Supabase, PostgreSQL, SQLite, Neon |
-| Inteligencia artificial | Integración de modelos de IA, agentes, Voiceflow, GPT4All |
-| Visión artificial | OpenCV, procesamiento de imágenes y vídeo |
-| Desarrollo y despliegue | Git, GitHub, Vercel |
-| Otros | HTML, CSS, generación de informes PDF, automatización de procesos |
+Estas son tecnologías y herramientas que he utilizado en distintos proyectos. La profundidad y el nivel de experiencia varían según la herramienta; no se presenta toda la lista como experiencia profesional avanzada.
 
-*La lista refleja herramientas utilizadas en mis proyectos personales y prototipos. No implica el mismo nivel de experiencia profesional en todas ellas.*
+### Frontend e interfaces
+- HTML5, CSS3, JavaScript y TypeScript.
+- React y Next.js.
+- Tailwind CSS.
+- Interfaces responsive, dashboards y componentes de producto.
+
+### Backend e integración
+- Python y FastAPI.
+- APIs REST e integración de servicios.
+- Lógica de negocio, endpoints y servicios backend.
+
+### Bases de datos y almacenamiento
+- Supabase y PostgreSQL.
+- SQLite.
+- Neon.
+- Persistencia de eventos, registros y evidencias.
+
+### Inteligencia artificial y automatización
+- Voiceflow para prototipos de asistentes y flujos conversacionales.
+- GPT4All y Ollama para explorar y ejecutar modelos locales.
+- Integración de modelos y herramientas de IA.
+- Diseño de agentes y automatización de procesos.
+
+### Visión artificial
+- OpenCV.
+- Procesamiento de imágenes y vídeo.
+- Detección de eventos y anomalías.
+- Captura y organización de evidencias.
+
+### Desarrollo, herramientas y despliegue
+- Git y GitHub.
+- Visual Studio Code.
+- Vercel.
+- Terminal y flujos de desarrollo.
+- Generación de informes PDF y documentación técnica.
 
 ---
 
-# Proyectos destacados
+# Proyectos seleccionados
 
-## 1. Transport AI Vision — Visión artificial y detección de incidencias
+Los proyectos se presentan según su estado real: desarrollos activos, MVPs, prototipos y demostraciones. No todos son productos comerciales terminados.
 
-**Estado:** Desarrollo activo.
+## 1. Transport AI Vision
+**Visión artificial · Desarrollo activo**
 
-Sistema orientado a analizar imágenes y vídeo de cámaras, detectar situaciones anómalas y facilitar la revisión de incidencias.
+Sistema en desarrollo para analizar vídeo e imágenes de cámaras y facilitar la detección y revisión de incidencias.
 
-**Trabajo realizado:**
-- Backend desarrollado con Python y FastAPI.
+Trabajo realizado:
+- Backend en Python y FastAPI.
 - Procesamiento de imágenes y vídeo mediante OpenCV.
-- Motor de detección de anomalías con reglas y baseline estadístico.
-- Persistencia de eventos y datos mediante SQLite.
-- Dashboard para consultar cámaras, eventos e incidencias.
-- Captura y almacenamiento de evidencias fotográficas.
-- Preparación de informes PDF con evidencias.
-- Sistema de notificaciones y consulta del historial.
+- Motor de anomalías basado en reglas y baseline estadístico.
+- Almacenamiento de eventos y muestras en SQLite.
+- Panel de control para cámaras, incidencias, evidencias e historial.
+- Captura y gestión de fotografías de evidencia.
+- Preparación de descargas e informes PDF.
+- Desarrollo de notificaciones y herramientas de revisión.
 
-**Tecnologías:** Python, FastAPI, OpenCV, SQLite, JavaScript/TypeScript.
+**Stack:** Python, FastAPI, OpenCV, SQLite, TypeScript / React.
 
-Repositorio: [transport-ai-vision](https://github.com/Transport-AI1/transport-ai-vision)
+[Repositorio Transport AI Vision](https://github.com/Transport-AI1/transport-ai-vision)
 
 ## 2. MVP de gestión logística
+**Aplicación web · Prototipo funcional en evolución**
 
-**Estado:** Prototipo funcional en evolución.
+Aplicación enfocada en centralizar operaciones logísticas, pedidos, estados de entrega e incidencias.
 
-Aplicación enfocada en mejorar el seguimiento de operaciones logísticas y la gestión de incidencias.
-
-**Funcionalidades trabajadas:**
-- Gestión de pedidos y estados de entrega.
+- Panel de gestión y vistas operativas.
+- Gestión de pedidos y estados.
 - Registro y seguimiento de incidencias.
-- API para operaciones logísticas.
-- Panel de gestión.
-- Persistencia de información y gestión de datos.
+- API y persistencia de información.
+- Trabajo de evolución hacia una solución multiempresa y perfiles operativos.
 
-**Tecnologías:** Next.js, TypeScript, Supabase, Vercel.
+**Stack:** Next.js, TypeScript, Supabase, Vercel.
 
-[Ver repositorio](https://github.com/Transport-AI1/mvp-logistica) · [Ver aplicación](https://transport-ai1-logistica.vercel.app)
+[Ver aplicación](https://transport-ai1-logistica.vercel.app) · [Repositorio](https://github.com/Transport-AI1/mvp-logistica)
 
-## 3. Agentes de IA para hoteles y alojamientos
+## 3. Recepción IA para hoteles y alojamientos
+**Agentes conversacionales · Demos**
 
-**Estado:** Demostraciones y prototipos.
+Prototipos de recepción digital adaptados a establecimientos hoteleros. El objetivo es ayudar a responder consultas de huéspedes, presentar información del alojamiento y orientar procesos de reserva.
 
-Desarrollo de experiencias de recepción digital para hoteles, con asistentes capaces de responder consultas de huéspedes y orientar procesos de reserva.
+- Demostración para Hotel Boutique Pinar.
+- Demostración para Aqua Bellamar.
+- Exploración de flujos conversacionales y experiencia de recepción.
+- Diseño de posibles integraciones con canales de comunicación y sistemas externos.
 
-Proyectos y demostraciones:
-- Hotel Boutique Pinar: [demo](https://transport-ai-hotel-pinar.vercel.app)
-- Aqua Bellamar: [demo](https://aqua-bellamar-demo.vercel.app)
-- Puente Romano: [repositorio](https://github.com/Transport-AI1/puente-romano-demo)
-- Complejo La Cigüeña: [repositorio](https://github.com/Transport-AI1/Complejo-la-cigue-a)
+**Stack:** Next.js, TypeScript, Voiceflow, APIs e integración de servicios.
 
-**Tecnologías:** Next.js, TypeScript, Voiceflow, APIs e integración de servicios.
+[Demo Hotel Boutique Pinar](https://transport-ai-hotel-pinar.vercel.app) · [Demo Aqua Bellamar](https://aqua-bellamar-demo.vercel.app)
+
+Otros conceptos y demos:
+- [Puente Romano](https://github.com/Transport-AI1/puente-romano-demo)
+- [Complejo La Cigüeña](https://github.com/Transport-AI1/Complejo-la-cigue-a)
 
 ## 4. Transport AI Virtual Office
+**Entorno de trabajo digital · Prototipo**
 
-**Estado:** Prototipo en desarrollo.
+Proyecto para crear un entorno de trabajo virtual desde el que organizar tareas, herramientas y futuros agentes especializados.
 
-Proyecto para crear un entorno de trabajo digital desde el que organizar tareas, herramientas y futuros agentes de IA especializados.
+- Interfaz de oficina virtual.
+- Estructura para áreas y herramientas de trabajo.
+- Exploración de integración con modelos locales.
+- Visión de evolución hacia agentes capaces de asistir en tareas concretas.
 
-El objetivo es evolucionar hacia una oficina virtual en la que diferentes agentes puedan ayudar a ejecutar tareas y coordinar procesos.
+**Stack:** Next.js, TypeScript, APIs, GPT4All.
 
-**Tecnologías:** Next.js, TypeScript, APIs e integración de modelos locales.
-
-[Ver repositorio](https://github.com/Transport-AI1/transport-ai-virtual-office)
+[Repositorio](https://github.com/Transport-AI1/transport-ai-virtual-office)
 
 ## 5. Chat AI 20
+**Espacio de trabajo IA · Desarrollo de producto**
 
-**Estado:** Desarrollo de producto.
+Proyecto de workspace basado en inteligencia artificial, planteado para reunir herramientas y áreas especializadas en una misma aplicación.
 
-Proyecto de espacio de trabajo basado en IA, con una arquitectura preparada para incorporar distintas herramientas y áreas especializadas.
+**Stack:** Next.js, TypeScript e integraciones de IA.
 
-[Ver repositorio](https://github.com/Transport-AI1/Chat-AI-20)
+[Repositorio](https://github.com/Transport-AI1/Chat-AI-20)
 
-## 6. Automatización y soluciones digitales para empresas
+## 6. Experiencias web para negocios
+**Web development · Demos y prototipos**
 
-A través de Transport AI he trabajado en conceptos, prototipos y soluciones para diferentes sectores:
+Diseño y desarrollo de experiencias digitales adaptadas a negocios, incluyendo conceptos para restauración, alojamientos y ocio.
 
-- Logística y transporte: seguimiento de operaciones, incidencias y comunicación.
-- Hoteles y alojamientos: recepción digital, consultas y reservas.
-- Restauración y ocio: menús, valoraciones y experiencias de reserva.
-- Servicios y atención al cliente: automatización de consultas y procesos.
+- Presentación de marca y servicios.
+- Interfaces responsive.
+- Contenido y recorridos digitales adaptados al negocio.
+- Prototipos de reservas, consultas y atención.
 
-También he trabajado en demostraciones específicas para negocios, adaptando la experiencia y las funcionalidades a cada caso.
-
-Web de la iniciativa: [transportai.es](https://transportai.es)
+[Explorar repositorios](https://github.com/Transport-AI1)
 
 ---
+
+## Sectores en los que aplico tecnología
+
+- **Transporte y logística:** seguimiento de operaciones, pedidos, entregas, incidencias, coordinación y avisos.
+- **Hoteles y alojamientos:** recepción digital, consultas, información del establecimiento y asistencia en reservas.
+- **Restauración y ocio:** experiencias web, atención, consultas y reservas.
+- **Servicios y operaciones:** gestión de solicitudes, automatización de tareas, comunicación y centralización de datos.
 
 ## Cómo trabajo
 
-1. Analizo el problema y el proceso que se quiere mejorar.
-2. Defino una solución técnica y sus funcionalidades.
-3. Desarrollo un prototipo que permita probar la idea.
-4. Integro frontend, backend, datos y servicios necesarios.
-5. Pruebo, corrijo y mejoro el producto de forma iterativa.
+1. **Entender:** analizar el problema, el proceso actual y las necesidades del usuario.
+2. **Diseñar:** definir funcionalidades, arquitectura y herramientas adecuadas.
+3. **Construir:** desarrollar frontend, backend, base de datos e integraciones.
+4. **Validar:** probar los flujos, detectar errores y revisar resultados.
+5. **Mejorar:** iterar, documentar y preparar el despliegue.
 
-Me gusta trabajar con objetivos concretos, aprender tecnologías nuevas cuando el proyecto lo requiere y construir soluciones que puedan utilizarse en situaciones reales.
+## Perfil y oportunidades
 
-## Qué oportunidades busco
+Como fundador de Transport AI, desarrollo proyectos propios y demostraciones tecnológicas desde la idea hasta el prototipo. Busco seguir creciendo técnicamente y colaborar en equipos y proyectos relacionados con:
 
-Me interesan especialmente puestos y colaboraciones relacionados con:
+- Desarrollo de software y aplicaciones web.
+- Desarrollo junior con Python.
+- Desarrollo frontend / full-stack junior.
+- Inteligencia artificial aplicada y agentes IA.
+- Automatización de procesos e integración de APIs.
+- Visión artificial y procesamiento de imágenes/vídeo.
+- Desarrollo de producto y prototipado.
 
-- Desarrollador junior de software / full-stack.
-- Desarrollador junior de Python.
-- Desarrollador de aplicaciones con IA.
-- AI Automation Developer.
-- Integración de APIs y automatización de procesos.
-- Desarrollo de prototipos y productos digitales.
-- Equipos de producto en startups tecnológicas.
-
-Estoy abierto a aprender, asumir responsabilidades y crecer dentro de un equipo técnico.
+Me definen la iniciativa, la curiosidad técnica, la mentalidad de producto y las ganas de aprender construyendo.
 
 ## Contacto
 
-¿Buscas a alguien con iniciativa, mentalidad de producto y ganas de construir tecnología?
+¿Tienes una idea, un proyecto, una colaboración o una oportunidad profesional?
 
-- GitHub: [github.com/Transport-AI1](https://github.com/Transport-AI1)
-- Web: [transportai.es](https://transportai.es)
-- Email: [webmaster@transportai.es](mailto:webmaster@transportai.es)
+- **Email:** [contacto@transportai.es](mailto:contacto@transportai.es)
+- **Web:** [transportai.es](https://transportai.es)
+- **GitHub:** [Transport-AI1](https://github.com/Transport-AI1)
 
 ---
 
-<p align="center">
-  <strong>Ideas convertidas en productos. Tecnología aplicada a problemas reales.</strong>
-</p>
+<p align="center"><strong>Ideas convertidas en productos. Tecnología aplicada a problemas reales.</strong></p>
