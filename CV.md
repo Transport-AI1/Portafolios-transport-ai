@@ -1,59 +1,101 @@
 # Álvaro Chaveinte Camargo
-## Perfil profesional
 
-Creador de proyectos tecnológicos y fundador de Transport AI, con experiencia práctica desarrollando prototipos y aplicaciones en inteligencia artificial, automatización y desarrollo web.
+**Desarrollador de software · Inteligencia artificial · Automatización · Fundador de Transport AI**
 
-He trabajado en proyectos propios desde la definición del problema hasta la implementación de interfaces, APIs, bases de datos e integraciones. Busco incorporarme a un equipo donde pueda aportar iniciativa, capacidad de aprendizaje y experiencia práctica construyendo productos digitales.
+Madrid, España  
+**Email:** [contacto@transportai.es](mailto:contacto@transportai.es)  
+**Portfolio:** https://github.com/Transport-AI1/Portafolios-transport-ai  
+**GitHub:** https://github.com/Transport-AI1  
+**Web:** https://transportai.es
 
-## Áreas de interés
+---
 
-- Desarrollo full-stack y aplicaciones web.
-- Python y desarrollo backend.
-- Inteligencia artificial aplicada a empresas.
-- Automatización de procesos e integración de APIs.
-- Visión artificial y análisis de imágenes/vídeo.
-- Desarrollo de producto y prototipado.
+## Perfil
 
-## Tecnologías utilizadas en proyectos
+Creador de productos tecnológicos y fundador de Transport AI. Desarrollo proyectos propios y prototipos que combinan aplicaciones web, backend, bases de datos, APIs, automatización e inteligencia artificial.
 
-- **Frontend:** JavaScript, TypeScript, React, Next.js.
-- **Backend:** Python, FastAPI, APIs REST.
-- **Datos:** Supabase, PostgreSQL, SQLite, Neon.
-- **IA y visión:** Voiceflow, GPT4All, OpenCV e integración de modelos.
-- **Herramientas:** Git, GitHub y Vercel.
+He trabajado en soluciones de gestión logística, visión artificial, análisis de vídeo e incidencias, agentes conversacionales para alojamientos y herramientas internas basadas en IA. Participo en el proceso completo: análisis del problema, definición funcional, desarrollo, integración, pruebas y despliegue.
 
-## Proyectos seleccionados
+Busco oportunidades junior y colaboraciones en desarrollo de software, Python, aplicaciones web, IA aplicada y automatización, donde pueda aportar iniciativa, capacidad de aprendizaje y experiencia práctica construyendo productos.
 
-### Transport AI Vision
-Sistema en desarrollo para análisis de vídeo, detección de anomalías, gestión de eventos, captura de evidencias y generación de informes PDF.
-Repositorio: https://github.com/Transport-AI1/transport-ai-vision
+## Áreas técnicas
 
-### MVP de gestión logística
-Aplicación para gestionar pedidos, estados de entrega e incidencias, con Next.js, TypeScript y Supabase.
-Repositorio: https://github.com/Transport-AI1/mvp-logistica
-Demo: https://transport-ai1-logistica.vercel.app
+- **Frontend:** HTML, CSS, JavaScript, TypeScript, React, Next.js y Tailwind CSS.
+- **Backend:** Python, FastAPI, APIs REST e integración de servicios.
+- **Bases de datos:** Supabase, PostgreSQL, SQLite y Neon.
+- **IA y agentes:** Voiceflow, GPT4All, Ollama, integración de modelos y asistentes conversacionales.
+- **Visión artificial:** OpenCV, procesamiento de imágenes y vídeo, detección de anomalías y evidencias.
+- **Herramientas:** Git, GitHub, Visual Studio Code y Vercel.
+- **Otros:** dashboards, automatización de procesos, generación de informes PDF y prototipado.
 
-### Agentes de IA para hoteles
-Prototipos de recepción digital y asistentes conversacionales adaptados a alojamientos.
-Demo: https://transport-ai-hotel-pinar.vercel.app
-
-### Transport AI Virtual Office
-Prototipo de entorno de trabajo digital con visión de incorporar agentes y herramientas especializadas.
-Repositorio: https://github.com/Transport-AI1/transport-ai-virtual-office
+*Tecnologías utilizadas en proyectos propios; el nivel de experiencia puede variar entre herramientas.*
 
 ## Experiencia práctica
 
-**Fundador — Transport AI**
-Desarrollo de proyectos tecnológicos y prototipos orientados a resolver problemas operativos de empresas. Trabajo en definición de producto, desarrollo de aplicaciones, integraciones, demostraciones y exploración de oportunidades comerciales.
+### Fundador y desarrollador de proyectos — Transport AI
+**Desarrollo de producto tecnológico y soluciones digitales**
+
+- Diseño y desarrollo de aplicaciones web y paneles de gestión.
+- Construcción de APIs y servicios backend.
+- Integración de bases de datos y servicios externos.
+- Desarrollo de prototipos de agentes IA y automatizaciones.
+- Creación de soluciones para logística, transporte, hoteles, restauración y operaciones.
+- Despliegue y evolución de proyectos mediante GitHub y Vercel.
+- Análisis de necesidades, definición de funcionalidades y pruebas iterativas.
+
+## Proyectos seleccionados
+
+### Transport AI Vision — Visión artificial
+Sistema en desarrollo para análisis de imágenes y vídeo, detección de anomalías, registro de eventos, evidencias y gestión de incidencias. Incluye backend Python/FastAPI, OpenCV, motor de anomalías con reglas y baseline estadístico, SQLite y desarrollo de panel de control.
+
+Repositorio: https://github.com/Transport-AI1/transport-ai-vision
+
+### MVP de gestión logística
+Aplicación web para gestionar operaciones, pedidos, estados de entrega e incidencias, con panel de gestión y persistencia de datos.
+
+Tecnologías: Next.js, TypeScript, Supabase y Vercel.  
+Demo: https://transport-ai1-logistica.vercel.app  
+Repositorio: https://github.com/Transport-AI1/mvp-logistica
+
+### Agentes IA para hoteles
+Prototipos de recepción digital para responder consultas, presentar información de alojamientos y orientar procesos de reserva.
+
+Tecnologías: Next.js, TypeScript, Voiceflow y APIs.  
+Demos: https://transport-ai-hotel-pinar.vercel.app · https://aqua-bellamar-demo.vercel.app
+
+### Transport AI Virtual Office
+Prototipo de entorno de trabajo digital para organizar tareas, herramientas y futuros agentes especializados.
+
+Repositorio: https://github.com/Transport-AI1/transport-ai-virtual-office
+
+### Chat AI 20
+Proyecto de workspace basado en IA, preparado para incorporar herramientas y áreas especializadas.
+
+Repositorio: https://github.com/Transport-AI1/Chat-AI-20
+
+### Experiencias web para negocios
+Demostraciones y prototipos de experiencias digitales adaptadas a alojamientos, restauración y ocio.
+
+Más proyectos: https://github.com/Transport-AI1
+
+## Forma de trabajo
+
+1. Analizar el problema y las necesidades del usuario.
+2. Definir la solución técnica y sus funcionalidades.
+3. Desarrollar interfaz, backend, datos e integraciones.
+4. Probar los flujos y corregir errores.
+5. Iterar y preparar el despliegue.
 
 ## Objetivo profesional
 
-Incorporarme a un equipo de desarrollo, IA o automatización en el que pueda seguir creciendo técnicamente, colaborar en productos reales y aportar capacidad de ejecución.
+Seguir creciendo en un equipo técnico y participar en proyectos de desarrollo de software, aplicaciones web, Python, inteligencia artificial aplicada, automatización, integración de APIs y visión artificial.
 
 ## Contacto
 
-- GitHub: https://github.com/Transport-AI1
-- Web: https://transportai.es
-- Email: webmaster@transportai.es
+**contacto@transportai.es**  
+https://transportai.es  
+https://github.com/Transport-AI1
 
-*Este documento describe proyectos propios y experiencia práctica de desarrollo. No atribuye titulaciones, empleos anteriores ni resultados comerciales que no estén acreditados.*
+---
+
+*Este CV describe experiencia práctica en proyectos propios y prototipos. No atribuye titulaciones, empleos anteriores ni resultados comerciales no acreditados.*
