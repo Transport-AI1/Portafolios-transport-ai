@@ -64,6 +64,8 @@ Los siguientes proyectos muestran experiencia práctica. Su estado se indica en 
 ### 1. Transport AI Vision
 **Visión artificial · Desarrollo activo**
 
+![Vista conceptual de Transport AI Vision](https://raw.githubusercontent.com/Transport-AI1/Portafolios-transport-ai/main/assets/demo-vision-artificial.svg)
+
 Sistema en desarrollo para analizar imágenes y vídeo de cámaras y facilitar la revisión de eventos e incidencias.
 
 - Backend desarrollado con Python y FastAPI.
@@ -93,6 +95,8 @@ Aplicación para centralizar operaciones logísticas, pedidos, estados de entreg
 ### 3. Recepción IA para hoteles y alojamientos
 **Agentes conversacionales · Demos**
 
+![Demostración visual de agente de IA](https://raw.githubusercontent.com/Transport-AI1/Portafolios-transport-ai/main/assets/demo-agente-ia.svg)
+
 Prototipos de recepción digital adaptados a establecimientos hoteleros, orientados a responder consultas, presentar información y explorar procesos de reserva.
 
 - Demostración para Hotel Boutique Pinar.
@@ -103,7 +107,14 @@ Prototipos de recepción digital adaptados a establecimientos hoteleros, orienta
 **Stack:** Next.js, TypeScript, Voiceflow y APIs.  
 [Demo Hotel Boutique Pinar](https://transport-ai-hotel-pinar.vercel.app) · [Demo Aqua Bellamar](https://aqua-bellamar-demo.vercel.app)
 
-### 4. Transport AI Virtual Office
+### 4. Tienda online — concepto visual
+**Diseño e-commerce · Demostración conceptual**
+
+![Concepto visual de tienda online](https://raw.githubusercontent.com/Transport-AI1/Portafolios-transport-ai/main/assets/demo-tienda-online.svg)
+
+Diseño conceptual para ilustrar una posible tienda digital con catálogo, navegación y presentación de productos. Es una muestra visual de diseño, no una tienda publicada ni un proyecto comercial entregado.
+
+### 5. Transport AI Virtual Office
 **Entorno de trabajo digital · Prototipo**
 
 Entorno de trabajo virtual concebido para organizar tareas, herramientas y futuros agentes especializados.
@@ -111,7 +122,7 @@ Entorno de trabajo virtual concebido para organizar tareas, herramientas y futur
 **Stack:** Next.js, TypeScript, APIs y GPT4All.  
 [Repositorio](https://github.com/Transport-AI1/transport-ai-virtual-office)
 
-### 5. Chat AI 20
+### 6. Chat AI 20
 **Workspace de inteligencia artificial · Desarrollo de producto**
 
 Proyecto de espacio de trabajo basado en IA, planteado para reunir herramientas y áreas especializadas en una aplicación.
@@ -119,7 +130,7 @@ Proyecto de espacio de trabajo basado en IA, planteado para reunir herramientas 
 **Stack:** Next.js, TypeScript e integraciones de IA.  
 [Repositorio](https://github.com/Transport-AI1/Chat-AI-20)
 
-### 6. Experiencias digitales para negocios
+### 7. Experiencias digitales para negocios
 **Web development · Demos y prototipos**
 
 Diseño y desarrollo de experiencias web adaptadas a alojamientos, restauración y ocio, con interfaces responsive, contenido específico y recorridos digitales.
