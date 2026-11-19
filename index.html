@@ -74,16 +74,40 @@ h1 span{background:linear-gradient(105deg,#a7c5ff 8%,#77ead5 60%,#b9a8ff 100%);-
 @media(max-width:640px){.hero{padding:62px 0 56px;gap:30px}h1{font-size:clamp(49px,14vw,68px);line-height:1.01}.lead{font-size:15px}.section{padding:64px 0}.section-head{margin-bottom:27px}.section h2{font-size:35px}.hero-panel{padding:16px}.code-window{padding:14px;font-size:10px}.metric{padding:12px}.metric strong{font-size:12px}#proyectos .grid{grid-template-columns:1fr;gap:13px}#proyectos .project,#proyectos .project:first-child{grid-column:auto;padding:16px}#proyectos .project:first-child h3{font-size:21px}#proyectos .project p{font-size:12px}.card{border-radius:16px}.profile-card{padding:21px}.stack-group{padding:20px}.sector{padding:15px}.contact-box{padding:27px 21px;border-radius:19px}.contact-box h2{font-size:40px}.foot{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.hero>div:first-child,.hero-panel{animation:none}.hero-panel{transform:none}}
 
+
+/* Navegación por pantallas: portada compacta y apartados independientes */
+html{scroll-behavior:auto}
+body.portfolio-app{min-height:100vh;display:flex;flex-direction:column}
+.portfolio-app main.wrap{flex:1;display:flex;flex-direction:column}
+.view-panel{display:none!important}
+.view-panel.active{display:block!important}
+.hero.view-panel.active{display:grid!important}
+.portfolio-app .hero.view-panel.active{min-height:min(760px,calc(100vh - 150px));align-content:center;padding-top:50px;padding-bottom:50px}
+.portfolio-app .section.view-panel.active{animation:panelIn .28s ease both}
+@keyframes panelIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.portfolio-app .section.view-panel.active>.section-head{margin-bottom:42px}
+.portfolio-app .section.view-panel.active>.section-head h2{max-width:850px}
+.portfolio-app nav a[aria-current="page"]{color:var(--cyan)}
+.portfolio-app nav a[aria-current="page"]:not(.nav-cta){position:relative}
+.portfolio-app nav a[aria-current="page"]:not(.nav-cta):after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--cyan);border-radius:2px}
+.portfolio-app .foot{margin-top:auto}
+@media(max-width:640px){
+ .portfolio-app .hero.view-panel.active{min-height:calc(100svh - 120px);padding-top:34px;padding-bottom:34px}
+ .portfolio-app .section.view-panel.active{padding-top:38px;padding-bottom:44px}
+ .portfolio-app nav a[aria-current="page"]:not(.nav-cta):after{display:none}
+}
+@media(prefers-reduced-motion:reduce){.portfolio-app .section.view-panel.active{animation:none}}
+
 </style>
 </head>
-<body>
+<body class="portfolio-app">
 <div class="topbar"><div class="wrap nav"><a class="brand" href="#inicio">ÁLVARO<span style="color:var(--cyan)">.</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">☰</button><nav id="main-nav"><a href="#perfil">Perfil</a><a href="#servicios">Especialidades</a><a href="#proyectos">Proyectos</a><a href="#tecnologias">Tecnologías</a><a href="#sobre-mi">Sobre mí</a><a class="nav-cta" href="#contacto">Contactar ↗</a></nav></div></div>
 <main class="wrap">
-<section class="hero" id="inicio">
+<section class="hero view-panel active" id="inicio">
 <div><div class="eyebrow"><i class="dot"></i> Portfolio profesional · Madrid, España</div><h1>Desarrollo tecnología que <span>resuelve problemas reales.</span></h1><p class="lead">Soy Álvaro Chaveinte Camargo, fundador de Transport AI. Diseño y desarrollo aplicaciones, automatizaciones, agentes de inteligencia artificial y herramientas digitales para transformar procesos de negocio en soluciones útiles.</p><div class="actions"><a class="btn primary" href="#proyectos">Ver proyectos <span>↗</span></a><a class="btn" href="mailto:contacto@transportai.es">Escríbeme <span>↗</span></a><a class="btn" href="https://github.com/Transport-AI1" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
 <div class="hero-panel"><div class="panel-top"><span>TRANSPORT AI / WORKSPACE</span><span class="live">● BUILDING IDEAS</span></div><div class="code-window"><div><span class="p">const</span> solution = <span class="c">buildProduct</span>({</div><div>&nbsp; problem: <span class="y">"real business needs"</span>,</div><div>&nbsp; intelligence: <span class="y">"AI + automation"</span>,</div><div>&nbsp; interface: <span class="y">"web applications"</span>,</div><div>&nbsp; integrations: [<span class="y">"APIs"</span>, <span class="y">"data"</span>],</div><div>&nbsp; mindset: <span class="y">"learn, test, improve"</span></div><div>});</div><div style="margin-top:10px;color:var(--cyan)">✓ From concept to working prototype</div></div><div class="metrics"><div class="metric"><strong>AI & Software</strong><small>Aplicaciones y producto</small></div><div class="metric"><strong>End-to-end</strong><small>Frontend, backend y datos</small></div><div class="metric"><strong>Business-first</strong><small>Problemas antes que tecnología</small></div><div class="metric"><strong>Hands-on</strong><small>Construir, probar, iterar</small></div></div></div>
 </section>
-<section class="section" id="perfil"><div class="section-head"><div><div class="kicker">Perfil profesional</div><h2>Iniciativa, visión de producto y ejecución técnica</h2></div><p class="section-intro">No me limito a plantear ideas: trabajo para convertir necesidades concretas en prototipos que se puedan enseñar, probar y mejorar.</p></div><div class="profile-grid"><div class="profile-card"><p>Soy Álvaro Chaveinte Camargo, fundador de <strong>Transport AI</strong> y desarrollador de proyectos tecnológicos. Mi trabajo combina desarrollo web, backend, automatización, inteligencia artificial y visión artificial.</p><p>Me implico desde la primera conversación: escucho cómo funciona una empresa, identifico tareas que generan fricción, propongo una solución proporcionada y construyo una demostración adaptada al caso de uso. Después trabajo en la validación, las integraciones y la evolución del producto.</p><p>He desarrollado proyectos propios y demostraciones para contextos de logística, alojamientos, restauración y operaciones. Presento cada trabajo con transparencia: prototipo, MVP, demo o desarrollo activo, sin confundirlos con productos terminados.</p><div class="tagline"><span>Fundador de Transport AI</span><span>Desarrollo práctico</span><span>Madrid, España</span><span>Abierto a colaborar</span></div></div><div class="value-list"><div class="value-item"><div class="value-mark">↗</div><div><b>Orientación a negocio</b><span>Entender el proceso antes de elegir la tecnología.</span></div></div><div class="value-item"><div class="value-mark">⌘</div><div><b>Visión de producto</b><span>Convertir necesidades en funcionalidades, flujos y experiencias claras.</span></div></div><div class="value-item"><div class="value-mark">⌁</div><div><b>Capacidad de ejecución</b><span>Construir frontend, backend, datos e integraciones y desplegar prototipos.</span></div></div><div class="value-item"><div class="value-mark">◎</div><div><b>Comunicación y colaboración</b><span>Preparar demos, explicar propuestas y recoger feedback para iterar.</span></div></div></div></div></section>
+<section class="section view-panel" id="perfil"><div class="section-head"><div><div class="kicker">Perfil profesional</div><h2>Iniciativa, visión de producto y ejecución técnica</h2></div><p class="section-intro">No me limito a plantear ideas: trabajo para convertir necesidades concretas en prototipos que se puedan enseñar, probar y mejorar.</p></div><div class="profile-grid"><div class="profile-card"><p>Soy Álvaro Chaveinte Camargo, fundador de <strong>Transport AI</strong> y desarrollador de proyectos tecnológicos. Mi trabajo combina desarrollo web, backend, automatización, inteligencia artificial y visión artificial.</p><p>Me implico desde la primera conversación: escucho cómo funciona una empresa, identifico tareas que generan fricción, propongo una solución proporcionada y construyo una demostración adaptada al caso de uso. Después trabajo en la validación, las integraciones y la evolución del producto.</p><p>He desarrollado proyectos propios y demostraciones para contextos de logística, alojamientos, restauración y operaciones. Presento cada trabajo con transparencia: prototipo, MVP, demo o desarrollo activo, sin confundirlos con productos terminados.</p><div class="tagline"><span>Fundador de Transport AI</span><span>Desarrollo práctico</span><span>Madrid, España</span><span>Abierto a colaborar</span></div></div><div class="value-list"><div class="value-item"><div class="value-mark">↗</div><div><b>Orientación a negocio</b><span>Entender el proceso antes de elegir la tecnología.</span></div></div><div class="value-item"><div class="value-mark">⌘</div><div><b>Visión de producto</b><span>Convertir necesidades en funcionalidades, flujos y experiencias claras.</span></div></div><div class="value-item"><div class="value-mark">⌁</div><div><b>Capacidad de ejecución</b><span>Construir frontend, backend, datos e integraciones y desplegar prototipos.</span></div></div><div class="value-item"><div class="value-mark">◎</div><div><b>Comunicación y colaboración</b><span>Preparar demos, explicar propuestas y recoger feedback para iterar.</span></div></div></div></div></section>
 <section class="section" id="servicios"><div class="section-head"><div><div class="kicker">Áreas de trabajo</div><h2>Qué puedo construir</h2></div><p class="section-intro">Una combinación de desarrollo de software e inteligencia artificial aplicada a operaciones, atención al cliente y procesos empresariales.</p></div><div class="grid">
 <article class="card"><div class="iconbox">✳</div><h3>Automatización inteligente</h3><p>Flujos de trabajo que conectan herramientas, reducen tareas manuales, gestionan avisos y mantienen sincronizada la información.</p></article>
 <article class="card"><div class="iconbox">◈</div><h3>Agentes y asistentes IA</h3><p>Asistentes conversacionales y de voz para responder consultas, guiar reservas, recoger datos y ayudar en procesos de atención.</p></article>
@@ -123,5 +147,38 @@ h1 span{background:linear-gradient(105deg,#a7c5ff 8%,#77ead5 60%,#b9a8ff 100%);-
 <section class="section" id="contacto"><div class="contact-box"><div class="kicker">Contacto profesional</div><h2>¿Tienes un proyecto o una oportunidad?</h2><p>Si quieres desarrollar una aplicación, automatizar un proceso, explorar una solución con IA o hablar sobre una colaboración profesional, estaré encantado de escucharte.</p><a class="email" href="mailto:contacto@transportai.es">contacto@transportai.es</a><div class="actions"><a class="btn primary" href="mailto:contacto@transportai.es?subject=Contacto%20profesional">Enviar un email ↗</a><a class="btn" href="https://github.com/Transport-AI1" target="_blank" rel="noreferrer">GitHub ↗</a><a class="btn" href="https://transportai.es" target="_blank" rel="noreferrer">Transport AI ↗</a></div></div></section>
 </main>
 <footer class="wrap foot"><span>© 2026 Álvaro Chaveinte Camargo · Transport AI</span><span>Software · Inteligencia artificial · Automatización</span><a href="mailto:contacto@transportai.es">contacto@transportai.es</a></footer>
-<script>const menuButton=document.querySelector(".menu-toggle");const menu=document.querySelector("#main-nav");if(menuButton&&menu){menuButton.addEventListener("click",()=>{const open=menu.classList.toggle("open");menuButton.setAttribute("aria-expanded",String(open));menuButton.setAttribute("aria-label",open?"Cerrar menú":"Abrir menú");menuButton.textContent=open?"✕":"☰"});menu.querySelectorAll("a").forEach(link=>link.addEventListener("click",()=>{menu.classList.remove("open");menuButton.setAttribute("aria-expanded","false");menuButton.setAttribute("aria-label","Abrir menú");menuButton.textContent="☰"}))}</script>
+
+<script>
+(()=> {
+ const panels=[...document.querySelectorAll('main .view-panel')];
+ const nav=document.querySelector('#main-nav');
+ const menuButton=document.querySelector('.menu-toggle');
+ const links=[...document.querySelectorAll('a[href^="#"]')];
+ const valid=new Set(panels.map(p=>p.id));
+ function show(id,update=true){
+   if(!valid.has(id)) id='inicio';
+   panels.forEach(p=>p.classList.toggle('active',p.id===id));
+   document.querySelectorAll('#main-nav a[href^="#"]').forEach(a=>{
+     if(a.getAttribute('href')==='#'+id) a.setAttribute('aria-current','page');
+     else a.removeAttribute('aria-current');
+   });
+   if(update && location.hash!=='#'+id) history.pushState({view:id},'', '#'+id);
+   if(nav) nav.classList.remove('open');
+   if(menuButton){menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Abrir menú');menuButton.textContent='☰'}
+   window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+ }
+ links.forEach(a=>a.addEventListener('click',e=>{
+   const id=a.getAttribute('href').slice(1);
+   if(valid.has(id)){e.preventDefault();show(id)}
+ }));
+ if(menuButton&&nav) menuButton.addEventListener('click',()=>{
+   const open=nav.classList.toggle('open');
+   menuButton.setAttribute('aria-expanded',String(open));
+   menuButton.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú');
+   menuButton.textContent=open?'✕':'☰';
+ });
+ window.addEventListener('popstate',()=>show(location.hash.slice(1)||'inicio',false));
+ show(location.hash.slice(1)||'inicio',false);
+})();
+</script>
 </body></html>
